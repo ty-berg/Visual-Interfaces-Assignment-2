@@ -96,7 +96,6 @@ plt.subplots_adjust(left=.42,bottom=.1,right=.54,top=.88,wspace=0, hspace=.5)
 plt.title("Total Score: " + str(total_score), x=-2, y=60.5, fontsize=50)
 plt.savefig("ScoresColors.pdf", format="pdf")
               
-"""
 #calculating texture differentials
 fig = plt.figure(figsize=(60,40))
 
@@ -405,7 +404,7 @@ plt.axis('off')
 plt.subplots_adjust(left=.42,bottom=.1,right=.54,top=.88,wspace=0, hspace=.5)
 plt.title("Total Score: " + str(total_score), x=-2, y=60.5, fontsize=50)
 plt.savefig("ScoresSymmetry.pdf", format="pdf")
-"""
+
 
 #calculating total differentials
 #creating plot figure for displaying images
